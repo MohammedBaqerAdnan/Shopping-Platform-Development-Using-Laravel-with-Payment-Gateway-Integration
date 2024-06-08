@@ -1,0 +1,210 @@
+nav a {
+    padding: 10px;
+    margin: 10px;
+    background-color: #ef4444;
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    list-style: none;
+    border: 1px solid ;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 10px;
+}
+li:hover{
+    background-color: #ef4444;
+    color: white;
+}
+/* form {
+    border: 1px solid ;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    padding: 25px;
+    margin: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+} */
+
+form div {
+    margin: 10px;
+}
+
+form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+form label {
+    display: inherit;
+    font-size: 0.9rem;
+    padding-bottom: 3px;
+    color: blueviolet;
+}
+
+form button {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1.1em;
+    margin: 10 0px;
+}
+form button:hover {
+    background-color: #ef4444;
+    color: white;
+}
+
+.form-error {
+    color: red;
+    font-size: 0.8em;
+    margin: 0px;
+}
+.edit-button{
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    font-size: 0.8rem;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    text-decoration: underline;
+}
+.delete-button
+{
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    font-size: 0.8rem;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 5px;
+    text-decoration: underline;
+}
+form input, form button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: inherit; /* Let it inherit the font-family set in body */
+    font-size: 1.2em;
+    width: 100%; /* Button and input fields take the full width of the parent */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+form button {
+    cursor: pointer; /* Make it look like a clickable button */
+}
+nav a {
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-color: #ef4444;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    background-color: #d43a2a;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    padding: 10px;
+    margin: 10px;
+    background-color: #ef4444;
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 10px;
+}
+
+li:hover {
+    background-color: #ef4444;
+    color: white;
+}
+
+form div {
+    margin: 10px;
+}
+
+form input, form button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+    font-size: 1.2em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form button {
+    cursor: pointer;
+}
+
+.edit-button, .delete-button {
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    font-size: 0.8rem;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    text-decoration: underline;
+}
+
+nav a:hover {
+    background-color: #d43a2a;
+    color: #fff;
+}
